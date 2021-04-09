@@ -177,20 +177,104 @@ video::-webkit-media-controls-timeline {
     bottom: 0;
     transform: translate(-50%, -50%);
 }
-.actu{
+.actu-title{
     text-align: center;
     font-family: "Hind", sans-serif;
     color: rgba(0,0,0,.75);
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
-.actu h2{
+.actu-title h2{
     font-size: 48px;
-    font-weight: 700;
-    padding-bottom: 8px;
+    font-weight: 600;
 }
-.actu p{
+.actu-title p{
     font-weight: 400;
     font-size: 20px;
     padding-bottom: 16px;
+}
+.actu{
+    justify-content: center;
+}
+.actu-card{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Hind", sans-serif;
+}
+.actu-botcard{
+    border: solid #eaeaea 1px;
+    background-color: #fff;
+    border-radius: 0 0 40px 40px;
+    width: 100%;
+    padding: 30px 40px 15px;
+    height: 300px;
+}
+.actu-img{
+    height:200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 40px 40px 0 0;
+}
+.actu-date{
+    color: #F17629;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actu-name{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.actu-summ{
+    color: rgba(0,0,0,.75);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 60px;
+    padding-right: 50px;
+}
+.actu-route{
+    color: #F17629;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 35px;
+    position:absolute;
+    bottom: 0;
+}
+.colorcaret{
+    color: #F17629;
+    width: 0.875em;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+.plus-actu{
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.info-button{
+    background-color: #F17629;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 27px 8px 27px;
+    cursor: pointer;
+}
+.stay-tuned{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    background-image: url("newsletter2.31f6f23a.png");
+    height: 240px;
+}
+.stay-tuned h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+.stay-tuned p{
+    font-size: 16px;
 }
