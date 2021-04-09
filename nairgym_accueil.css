@@ -7,6 +7,8 @@ html body{
     background-color: #F17629;
     height: 80px;
     align-items: center;
+    position: sticky;
+    z-index: 9999;
 }
 .fixed{
     top: 0;
@@ -98,6 +100,7 @@ video::-webkit-media-controls-timeline {
 .children-list li{
     margin-top: 15px;
     font-size: 20px;
+    margin-left: -10px
 }
 .foxies-cards{
     justify-content: center;
@@ -106,9 +109,12 @@ video::-webkit-media-controls-timeline {
 .fox-card{
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     text-align: center;
     background-color: #FFF;
     padding-bottom: 15px;
+
 }
 .fox-card h5{
     font-family: "Hind", sans-serif;
@@ -126,4 +132,65 @@ video::-webkit-media-controls-timeline {
     font-size: 18px;
     font-weight: 600;
     padding: 8px 27px 8px 27px;
+    cursor: pointer;
+}
+.anniv-resa{
+    background-color: #F17629;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    color: white;
+    font-family: "Hind", sans-serif;
+}
+.anniv-resa-img{
+    margin-bottom: 50px;
+}
+.anniv-resa h3{
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.a-r-card{
+    padding: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.a-r-card p{
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.a-r-card p span{
+    font-weight: bolder;
+}
+.discover-button{
+    background-color: white;
+    color:#F17629;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 28px 9px 28px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+.actu{
+    text-align: center;
+    font-family: "Hind", sans-serif;
+    color: rgba(0,0,0,.75);
+    margin-top: 30px;
+
+}
+.actu h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.actu p{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 16px;
 }
