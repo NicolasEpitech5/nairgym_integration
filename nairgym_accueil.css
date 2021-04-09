@@ -270,6 +270,8 @@ video::-webkit-media-controls-timeline {
     align-items: center;
     background-image: url("newsletter2.31f6f23a.png");
     height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .stay-tuned h3{
     font-weight: 600;
@@ -277,4 +279,56 @@ video::-webkit-media-controls-timeline {
 }
 .stay-tuned p{
     font-size: 16px;
+}
+#email{
+    width: 20%;
+    border-radius: 10px 0 0 10px;
+}
+.newsletter-bar{
+    justify-content: center;
+    height: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#SendButton{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0.6;
+    cursor: not-allowed;
+    border: solid #F17629 1px;
+    border-radius: 0 10px 10px 0;
+    background-color: #F17629;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+}
+.footer1{
+    margin-top: 60px;
+    text-align: center;
+}
+.footer2{
+    text-align: center;
+}
+.footer-img{
+    width: 111px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer3{
+    text-align: center;
+    font-family: "Hind", sans-serif;
+    font-size: 16px;
+    line-height: 135%;
+    color: #222;
+    letter-spacing: .05em;
+    margin-bottom: 120px;
+}
+.footer3 a{
+    color: #222;
+}
+.footer3 a:hover{
+    text-decoration: underline;
+    color: #222;
 }
