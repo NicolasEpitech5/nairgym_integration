@@ -28,7 +28,14 @@
                         <div class="top-buttons">
                             <a class="nav-buttons active" href="#top">Accueil</a>
                             <a class="nav-buttons" href="#top">Notre concept</a>
-                            <a class="nav-buttons" href="#top">Nos activités</a>
+                            <a class="nav-buttons" id="deroulant" href="#top">Nos activités</a>
+                                <ul class="dd-content list-unstyled">
+                                    <li><a class="toggle" href="https://www.nairgym.lu/babygym">Baby Gym</a></li>
+                                    <li><a class="toggle" href="https://www.nairgym.lu/kidsgym">Kids Gym</a></li>
+                                    <li><a class="toggle" href="https://www.nairgym.lu/airtramp">Airtramp</a></li>
+                                    <li><a class="toggle" href="https://www.nairgym.lu/multisports">Multisports</a></li>
+                                    <li><a class="toggle" href="https://www.nairgym.lu/snoezelen">Snoezelen</a></li>
+                                </ul>
                             <a class="nav-buttons" href="#top">Anniversaires</a>
                             <a class="nav-buttons" href="#top">Professionnels</a>
                             <a class="nav-buttons" href="#top">A propos de nous</a>
@@ -94,7 +101,7 @@
                 </div>
 
                 <div class="row reservation">
-                    <div class="res-button rounded"><div class="res-text">Réservation<span id="right1">&nbsp; &nbsp;></span></div> </div>
+                    <div class="res-button rounded"><div class="res-text">Réservation<span id="right1">&nbsp; &nbsp;></span></div></div>
                 </div>
 
                 <div class="row anniv-resa">
@@ -104,13 +111,13 @@
                                 <img class="anniv-resa-img" src="Framerenard_e9ef4f6993.png" alt="HappyBirthdayFox" height="305px" width="322px">
                                 <h3>Anniversaires</h3>
                                 <p>N’Airgym peut être <span>entièrement privatisé</span> pour rendre l’anniversaire de votre enfant unique. Tous les espaces sont mis à votre disposition pour une fête énergique et colorée !</p>
-                                <div class="discover-button rounded">Découvrir</div>
+                                <div class="discover-button rounded"><div class="disco-text">Découvrir<span id="right2">&nbsp; &nbsp;></span></div></div>
                             </div>
                             <div class="col-6 a-r-card">
                                 <img class="anniv-resa-img" src="frameenfant_34e76ee727.png" alt="Enfants_Professionels" height="305px" width="322px">
                                 <h3>Professionnels</h3>
                                 <p>Voir une prévisualisation N’Airgym accueille les enfants des <span>crèches, foyers de jour et écoles</span> dans un espace dynamique, agréable et sécurisé, où ils peuvent évoluer à leur rythme, encadrés par des <span>éducateurs formés et diplômés.</span></p>
-                                <div class="discover-button rounded">Découvrir</div>
+                                <div class="discover-button rounded"><div class="disco-text">Découvrir<span id="right3">&nbsp; &nbsp;></span></div></div>
                             </div>
                         </div>
                     </div>
@@ -127,30 +134,36 @@
                     <div class="col-8">
                         <div class="row">
                             <div class="col actu-card">
-                                <img class="actu-img" src="Rectangle_204_57570c5d73.png" alt="Rectangle_204_57570c5d73.png">
+                                <div class="actu-topcard">
+                                    <img class="actu-img" src="Rectangle_204_57570c5d73.png" alt="Rectangle_204_57570c5d73.png">
+                                </div>
                                 <div class=actu-botcard>
                                     <p class="actu-date">Février 2021</p>
                                     <p class="actu-name">TEMPORARY closure of our N'Airgym structure...</p>
                                     <p class="actu-summ">Dear Parents,  As you know, our sports center is currently closed. We have made the decision not to reopen our doors for…</p>
-                                    <p class="actu-route">Lire l'article <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 colorcaret" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg>
+                                    <a href="https://www.nairgym.lu/articles/602d3d4fc18fed0023c2a720" class="actu-route">Lire l'article <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 colorcaret" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg></a>
                                 </div>
                             </div>
                             <div class="col actu-card">
-                                <img class="actu-img" src="RTL_2_actualites_d666ad57bb.JPG" alt="RTL_2_actualites_d666ad57bb.JPG">
+                                <div class="actu-topcard">
+                                    <img class="actu-img" src="RTL_2_actualites_d666ad57bb.JPG" alt="RTL_2_actualites_d666ad57bb.JPG">
+                                </div>
                                 <div class=actu-botcard>
                                     <p class="actu-date">Février 2021</p>
                                     <p class="actu-name">On parle de nous - Aura groupe à la TV...</p>
                                     <p class="actu-summ">Notre crèche Les P’tits Bouchons de Leudelange a eu l'honneur d'accueillir RTL Lëtzebuerg dans le cadre de notre...</p>
-                                    <p class="actu-route">Lire l'article <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 colorcaret" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg>
+                                    <a href="https://www.nairgym.lu/articles/60219938f24c880023b3aaa0" class="actu-route">Lire l'article <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 colorcaret" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg></a>
                                 </div>
                             </div>
                             <div class="col actu-card">
-                                <img class="actu-img" src="esch_f27e55dc10.jpeg" alt="esch_f27e55dc10.jpeg">
+                                <div class="actu-topcard">
+                                    <img class="actu-img" src="esch_f27e55dc10.jpeg" alt="esch_f27e55dc10.jpeg">
+                                </div>
                                 <div class=actu-botcard>
                                     <p class="actu-date">Février 2021</p>
                                     <p class="actu-name">Aura groupe poursuit sa croissance et renforce sa position dans le sud...</p>
                                     <p class="actu-summ">Notre groupe s’agrandit ! Nous sommes très fiers d’annonce que courant de l’année 2021 nous ouvrirons deux nouvelles...</p>
-                                    <p class="actu-route">Lire l'article <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 colorcaret" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg>
+                                    <a href="https://www.nairgym.lu/articles/6022563d1a5d8a0023ccc2f6" class="actu-route">Lire l'article <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-right" class="svg-inline--fa fa-long-arrow-alt-right fa-w-14 colorcaret" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"></path></svg></a>
                                     </p>
                                 </div>
                             </div>
@@ -159,7 +172,7 @@
                 </div>
 
                 <div class="row plus-actu">
-                    <div class="info-button rounded">Plus d'actualités</div>
+                    <div class="info-button rounded"><div class="info-text">Plus d'actualités<span id="right4">&nbsp; &nbsp;></span></div></div>
                 </div>
 
                 <div class="row stay-tuned">
