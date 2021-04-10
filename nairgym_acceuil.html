@@ -2,15 +2,20 @@
     <html>
         <head>
             <meta charset = utf-8>
-            <title>Centre sportif pour enfant à Mondercange ! - N'AIRGYM</title>
-            <link rel="stylesheet" href="nairgym_accueil.css">
-            <link rel="stylesheet" href="nairgym_accueil.js">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <title>Centre sportif pour enfant à Mondercange ! - N'AIRGYM</title>
+            <!--CSS and JS sheets-->
+            <link rel="stylesheet" href="nairgym_accueil.css">
+            <!--Bootstrap CDN-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <!-- JQuery CDN-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <!--Goodle fonts for Hind and Raleway-->
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+            <!--Font Awesome CDN-->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
         </head>
         <body>
 
@@ -29,7 +34,7 @@
                             <a class="nav-buttons" href="#top">A propos de nous</a>
                             <a class="nav-buttons" href="#top">Actualités</a>
                             <a class="nav-buttons" href="#top">Contact</a>
-                            <a class="reserver rounded" href="#top">Réserver</a>
+                            <a class="reserver rounded" id="resa" href="#top">Réserver</a>
                         </div>
                     </div>
                 </div>
@@ -61,30 +66,35 @@
                 </div>
 
                 <div class="row foxies-cards">
-                    <div class="col-1half fox-card">
+                    <div class="col-1half fox-card" id="fc1">
                         <img src="babyGym.add93cdc.png" alt="BabyGymFox" height="224px" width="215px">
                         <h5>Baby Gym</h5>
+                        <a class="know-more rounded" id="know1" href="#top">En savoir plus</a>
                     </div>
-                    <div class="col-1half fox-card">
+                    <div class="col-1half fox-card" id="fc2">
                         <img src="kidsGym.86d909e1.png" alt="KidsGymFox" height="224px" width="215px">
                         <h5>Kids Gym</h5>
+                        <a class="know-more rounded" id="know2" href="#top">En savoir plus</a>
                     </div>
-                    <div class="col-1half fox-card">
+                    <div class="col-1half fox-card" id="fc3">
                         <img src="airtramp.d469f3aa.png" alt="AirtrampGymFox" height="224px" width="215px">
                         <h5>Airtramp</h5>
+                        <a class="know-more rounded" id="know3" href="#top">En savoir plus</a>
                     </div>
-                    <div class="col-1half fox-card">
+                    <div class="col-1half fox-card" id="fc4">
                         <img src="multisports.34a9489a.png" alt="MultisportGymFox" height="224px" width="215px">
                         <h5>Multisports</h5>
+                        <a class="know-more rounded" id="know4" href="#top">En savoir plus</a>
                     </div>
-                    <div class="col-1half fox-card">
+                    <div class="col-1half fox-card" id="fc5">
                         <img src="snoezelen.29a451ca.png" alt="SnoezelenGymFox" height="224px" width="215px">
                         <h5>Snoezelen</h5>
+                        <a class="know-more rounded" id="know5" href="#top">En savoir plus</a>
                     </div>
                 </div>
 
                 <div class="row reservation">
-                    <div class="res-button rounded">Réservation</div>
+                    <div class="res-button rounded"><div class="res-text">Réservation<span id="right1">&nbsp; &nbsp;></span></div> </div>
                 </div>
 
                 <div class="row anniv-resa">
@@ -168,7 +178,9 @@
 
                 <div class="row footer1">
                     <div class="col">
-                        Facebook, Instagram, LinkeIn
+                        <a href="https://web.facebook.com/nairgym/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nairgym/"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/n-airgym/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="row footer2">
@@ -189,5 +201,6 @@
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="nairgym_accueil.js"> </script>
         </body>
     </html>

@@ -30,6 +30,8 @@ html body{
     padding-bottom: 3px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 600;
+    letter-spacing: -.03em;
 }
 .top-buttons .nav-buttons:hover{
     text-decoration: none;
@@ -113,7 +115,7 @@ video::-webkit-media-controls-timeline {
     margin-top: 10px;
     text-align: center;
     background-color: #FFF;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 
 }
 .fox-card h5{
@@ -121,6 +123,7 @@ video::-webkit-media-controls-timeline {
     font-weight: 600;
     color: rgba(0,0,0,.75);
     padding-top: 15px;
+    padding-bottom: 10px;
 }
 .reservation{
     justify-content: center;
@@ -131,7 +134,7 @@ video::-webkit-media-controls-timeline {
     color: white;
     font-size: 18px;
     font-weight: 600;
-    padding: 8px 27px 8px 27px;
+    padding: 8px 8px 8px 27px;
     cursor: pointer;
 }
 .anniv-resa{
@@ -305,7 +308,7 @@ video::-webkit-media-controls-timeline {
     text-align: center;
 }
 .footer1{
-    margin-top: 60px;
+    margin-top: 120px;
     text-align: center;
 }
 .footer2{
@@ -331,4 +334,76 @@ video::-webkit-media-controls-timeline {
 .footer3 a:hover{
     text-decoration: underline;
     color: #222;
+}
+.fab{
+    font-size: 15px;
+    border-radius: 5px;
+    border: #F17629 solid 1px;
+    background: #F17629;
+    padding: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #fff;
+}
+.fa-facebook-f{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+/* ////////////////////////////////////// ANIMATIONS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+#resa { 
+    transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    text-decoration: none;
+    font-weight: 600;
+}
+.know-more{
+    font-size: 0px;
+    border: none;
+    background-color: #fff;
+    width: 85%;
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.know-more:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.fox-card{
+    transition: 0.75s;
+}
+.fox-card:hover .know-more{
+    font-family: "Hind", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    background-color: #F17629;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    width: 85%;
+}
+.know-more{
+    transition: 0.5s;
+}
+
+#right1{
+    color:#F17629;
+    font-family: "Hind", sans-serif;
+    font-size: 700;
+}
+.res-button:hover #right1{
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    transition: 0.5s;
+}
+.res-button:hover .res-text{
+    transform: translate(-8px,0);
+    transition: 0.75s;
+}
+.res-button:hover{
+    padding-right: 8px;
 }
