@@ -138,6 +138,9 @@ video::-webkit-media-controls-timeline {
     padding: 8px 8px 8px 27px;
     cursor: pointer;
 }
+.resabutton:hover{
+    text-decoration: none;
+}
 .anniv-resa{
     background-color: #F17629;
     justify-content: center;
@@ -290,6 +293,7 @@ video::-webkit-media-controls-timeline {
 #email{
     width: 20%;
     border-radius: 10px 0 0 10px;
+    text-align: center;
 }
 .newsletter-bar{
     justify-content: center;
@@ -353,8 +357,12 @@ video::-webkit-media-controls-timeline {
     padding-left: 6px;
     padding-right: 6px;
 }
+.header2{
+    display: none;
+}
 
-
+/* ////////////////////////////////////// ANIMATIONS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ////////////////////////////////////// ANIMATIONS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* ////////////////////////////////////// ANIMATIONS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
@@ -541,4 +549,13 @@ video::-webkit-media-controls-timeline {
     font-family: "Hind", sans-serif;
     background-color: #FFF;
     color: #F17629;
+}
+.email-verif{
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+}
+.para{
+    margin-top: 25px;
+    opacity: 0;
 }

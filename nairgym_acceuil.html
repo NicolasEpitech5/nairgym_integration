@@ -6,6 +6,7 @@
             <title>Centre sportif pour enfant à Mondercange ! - N'AIRGYM</title>
             <!--CSS and JS sheets-->
             <link rel="stylesheet" href="nairgym_accueil.css">
+            <!-- <link rel="stylesheet" media="screen and (max-width: 1080px)" href="nairgym_accueil_lowres.css"> -->
             <!--Bootstrap CDN-->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <!-- JQuery CDN-->
@@ -27,7 +28,7 @@
                     <div class="col-10">
                         <div class="top-buttons">
                             <a class="nav-buttons active" href="#top">Accueil</a>
-                            <a class="nav-buttons" href="#top">Notre concept</a>
+                            <a class="nav-buttons" href="https://www.nairgym.lu/notreconcept">Notre concept</a>
                             <a class="nav-buttons" id="deroulant" href="#top">Nos activités</a>
                                 <ul class="dd-content list-unstyled">
                                     <li><a class="toggle" href="https://www.nairgym.lu/babygym">Baby Gym</a></li>
@@ -36,18 +37,18 @@
                                     <li><a class="toggle" href="https://www.nairgym.lu/multisports">Multisports</a></li>
                                     <li><a class="toggle" href="https://www.nairgym.lu/snoezelen">Snoezelen</a></li>
                                 </ul>
-                            <a class="nav-buttons" href="#top">Anniversaires</a>
-                            <a class="nav-buttons" href="#top">Professionnels</a>
-                            <a class="nav-buttons" href="#top">A propos de nous</a>
-                            <a class="nav-buttons" href="#top">Actualités</a>
-                            <a class="nav-buttons" href="#top">Contact</a>
-                            <a class="reserver rounded" id="resa" href="#top">Réserver</a>
+                            <a class="nav-buttons" href="https://www.nairgym.lu/anniversaires">Anniversaires</a>
+                            <a class="nav-buttons" href="https://www.nairgym.lu/professionnels">Professionnels</a>
+                            <a class="nav-buttons" href="https://www.nairgym.lu/apropos">A propos de nous</a>
+                            <a class="nav-buttons" href="https://www.nairgym.lu/actualites">Actualités</a>
+                            <a class="nav-buttons" href="https://www.nairgym.lu/contact">Contact</a>
+                            <a class="reserver rounded" id="resa" href="https://www.nairgym.lu/contact">Réserver</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <video controls="" controlslist="nodownload" muted class="video" playsinline=" loop=" id="bgvid"><source src="https://www.nairgym.lu/static/media/Naigym_vid%C3%A9o_hp.0c742f4c.mp4" type="video/mp4"></video>
+                    <video controls="" controlslist="nodownload" autoplay muted class="video" playsinline="" loop="" id="bgvid"><source src="https://www.nairgym.lu/static/media/Naigym_vid%C3%A9o_hp.0c742f4c.mp4" type="video/mp4"></video>
                 </div>
 
                 <div class="row caption">
@@ -76,32 +77,34 @@
                     <div class="col-1half fox-card" id="fc1">
                         <img src="babyGym.add93cdc.png" alt="BabyGymFox" height="224px" width="215px">
                         <h5>Baby Gym</h5>
-                        <a class="know-more rounded" id="know1" href="#top">En savoir plus</a>
+                        <a class="know-more rounded" id="know1" href="https://www.nairgym.lu/babygym">En savoir plus</a>
                     </div>
                     <div class="col-1half fox-card" id="fc2">
                         <img src="kidsGym.86d909e1.png" alt="KidsGymFox" height="224px" width="215px">
                         <h5>Kids Gym</h5>
-                        <a class="know-more rounded" id="know2" href="#top">En savoir plus</a>
+                        <a class="know-more rounded" id="know2" href="https://www.nairgym.lu/kidsgym">En savoir plus</a>
                     </div>
                     <div class="col-1half fox-card" id="fc3">
                         <img src="airtramp.d469f3aa.png" alt="AirtrampGymFox" height="224px" width="215px">
                         <h5>Airtramp</h5>
-                        <a class="know-more rounded" id="know3" href="#top">En savoir plus</a>
+                        <a class="know-more rounded" id="know3" href="https://www.nairgym.lu/airtramp">En savoir plus</a>
                     </div>
                     <div class="col-1half fox-card" id="fc4">
                         <img src="multisports.34a9489a.png" alt="MultisportGymFox" height="224px" width="215px">
                         <h5>Multisports</h5>
-                        <a class="know-more rounded" id="know4" href="#top">En savoir plus</a>
+                        <a class="know-more rounded" id="know4" href="https://www.nairgym.lu/multisports">En savoir plus</a>
                     </div>
                     <div class="col-1half fox-card" id="fc5">
                         <img src="snoezelen.29a451ca.png" alt="SnoezelenGymFox" height="224px" width="215px">
                         <h5>Snoezelen</h5>
-                        <a class="know-more rounded" id="know5" href="#top">En savoir plus</a>
+                        <a class="know-more rounded" id="know5" href="https://www.nairgym.lu/snoezelen">En savoir plus</a>
                     </div>
                 </div>
 
                 <div class="row reservation">
-                    <div class="res-button rounded"><div class="res-text">Réservation<span id="right1">&nbsp; &nbsp;></span></div></div>
+                    <a class="resabutton" href="https://www.nairgym.lu/contact">
+                        <div class="res-button rounded"><div class="res-text">Réservation<span id="right1">&nbsp; &nbsp;></span></div></div>
+                    </a>
                 </div>
 
                 <div class="row anniv-resa">
@@ -111,13 +114,17 @@
                                 <img class="anniv-resa-img" src="Framerenard_e9ef4f6993.png" alt="HappyBirthdayFox" height="305px" width="322px">
                                 <h3>Anniversaires</h3>
                                 <p>N’Airgym peut être <span>entièrement privatisé</span> pour rendre l’anniversaire de votre enfant unique. Tous les espaces sont mis à votre disposition pour une fête énergique et colorée !</p>
-                                <div class="discover-button rounded"><div class="disco-text">Découvrir<span id="right2">&nbsp; &nbsp;></span></div></div>
+                                <a class="resabutton" href="https://www.nairgym.lu/anniversaires">
+                                    <div class="discover-button rounded"><div class="disco-text">Découvrir<span id="right2">&nbsp; &nbsp;></span></div></div>
+                                </a>
                             </div>
                             <div class="col-6 a-r-card">
                                 <img class="anniv-resa-img" src="frameenfant_34e76ee727.png" alt="Enfants_Professionels" height="305px" width="322px">
                                 <h3>Professionnels</h3>
                                 <p>Voir une prévisualisation N’Airgym accueille les enfants des <span>crèches, foyers de jour et écoles</span> dans un espace dynamique, agréable et sécurisé, où ils peuvent évoluer à leur rythme, encadrés par des <span>éducateurs formés et diplômés.</span></p>
-                                <div class="discover-button rounded"><div class="disco-text">Découvrir<span id="right3">&nbsp; &nbsp;></span></div></div>
+                                <a class="resabutton" href="https://www.nairgym.lu/professionnels">
+                                    <div class="discover-button rounded"><div class="disco-text">Découvrir<span id="right3">&nbsp; &nbsp;></span></div></div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -172,7 +179,9 @@
                 </div>
 
                 <div class="row plus-actu">
-                    <div class="info-button rounded"><div class="info-text">Plus d'actualités<span id="right4">&nbsp; &nbsp;></span></div></div>
+                    <a class="resabutton" href="https://www.nairgym.lu/actualites">
+                        <div class="info-button rounded"><div class="info-text">Plus d'actualités<span id="right4">&nbsp; &nbsp;></span></div></div>
+                    </a>
                 </div>
 
                 <div class="row stay-tuned">
@@ -181,10 +190,13 @@
                         <p>Abonnez-vous à notre newsletter <br>
                         pour être informé(e) de toutes nos activités.</p>
                         <div class="row newsletter-bar">
-                            <input class="ant-input form-control newsletter-submit-input" id="email" placeholder="Saisissez votre adresse e-mail" type="text" value="">
+                            <input class="ant-input form-control newsletter-submit-input" id="email" placeholder="Saisissez votre adresse e-mail" type="text" value="" oninput="Valid_Email()">
                             <button disabled="" id="SendButton" type="submit" class="ant-btn ant-btn-submit btn newsletter-submit-btn">
                                 <span>Je m'abonne</span>
                             </button>
+                        </div>
+                        <div class="email-verif">
+                            <p class="para">Veuillez entrer une adresse e-mail !</p>
                         </div>
                     </div>
                 </div>
@@ -206,7 +218,7 @@
                 <div class="row footer3">
                     <div class="col">
                         <p class="copyright">© 2021 N'Airgym. Tous droits réservés.<br>
-                        <a href="/mentionlegale">Mentions légales</a> et <a href="/privacypolicy">Politique de confidentialité</a></p>
+                        <a href="https://www.nairgym.lu/mentionlegale">Mentions légales</a> et <a href="https://www.nairgym.lu/privacypolicy">Politique de confidentialité</a></p>
                     </div>
                 </div>
             </div>
